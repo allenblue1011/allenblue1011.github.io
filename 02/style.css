@@ -1,0 +1,23 @@
+/*選擇器*/
+p{
+    color: red; /*換顏色*/
+    font-size: 18px; /*換字大小*/
+}
+h1{
+    color: blue;
+}
+
+h1{
+    color: rebeccapurple;
+}
+
+/*#開頭代表尋找 id的選擇器*/
+/*他會與html 標題 id"my-heading" 對應*/
+#my-heading {
+    font-size: 48px;
+}
+/*用小數點開始class選擇器*/
+.heading {
+    font-size: 12px;
+    color: gray;
+}  

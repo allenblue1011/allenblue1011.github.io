@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="background">
+       <!--自我介紹-->
+        <div id="intro">
+            <h1>肉桂<span class="name">捲</span></h1>
+            <P>I am Allen</P>
+        </div>
+    </div>
+
+    <style>
+        .name{
+            color: #78290f;
+        }
+        body{
+            /*全部的margin設為0*/
+            margin: 0;
+        }
+        /*設定背景色*/
+        #background{
+            height: 100vh; /*vh是一個相對單位 代表裝置高度/100*/
+            background-color: pink;
+            background-image: url(cinn.jpg);
+            background-size: cover;/*背景吻合不重複*/
+        }
+           /*讓Intro的上邊外距 造成向下推的效果*/
+        #intro{
+            padding-top: 174px;
+        }
+        #intro h1 {
+            /*讓字變大*/
+            font-size: 70px;
+            padding-left: 23px;
+            color: #bc3908;
+        }
+        #intro p {
+            font-size: 28px;
+            /*使用內拒或外拒讓文字往右推*/
+            padding-left: 60px;
+            color: #fdca40;
+        }
+    </style>
+    
+</body>
+</html>
